@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  padding: 0px;
+  margin: 0px;
+}
+
+body p {
+  padding: 0px;
+  margin: 0px;
+}
+
+#banner {
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  height: 100vh;
+  position: relative;
+}
+
+#banner::before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.288);
+  content: '';
+}
+
+#banner .wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#banner .wrapper .brand img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#banner .h1 {
+  font-size: 70px;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+#bottom-ribbon {
+  padding: 20px;
+  background-color: #486092;
+}
+
+#bottom-ribbon .row {
+  align-items: center;
+}
+
+#bottom-ribbon p {
+  text-align: center;
+  color: #fff;
+}
+
+#bottom-ribbon p a {
+  color: #fff;
+}
+
+#bottom-ribbon .r-link {
+  margin: 0px;
+  padding: 0px;
+}
+
+#bottom-ribbon .r-link .ph {
+  font-size: 24px;
+  color: #ffff;
+}
+
+#bottom-ribbon .r-link li {
+  list-style: none;
+  display: inline-block;
+}
+
+#bottom-ribbon .r-link li a i {
+  padding: 20px;
+  color: #000;
+  background-color: #FFFFFF;
+}
+
+#bottom-ribbon .text-end {
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  #banner .h1 {
+    font-size: 30px;
+  }
+  #bottom-ribbon {
+    text-align: center;
+  }
+  #bottom-ribbon .r-link {
+    margin-bottom: 20px;
+    float: none !important;
+  }
+}
+
+#index-bg {
+  overflow: hidden;
+}
+
+#index-bg .left {
+  background-position: bottom left !important;
+  background-repeat: no-repeat !important;
+  height: 100vh;
+}
+
+#index-bg .left .brand {
+  padding: 40px;
+}
+
+#index-bg .right {
+  background-position: top right !important;
+  background-repeat: no-repeat !important;
+  height: 100vh;
+}
+
+#index-bg .middle .detail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#index-bg .middle .detail h1 {
+  font-size: 56px !important;
+  padding: 20px 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,206 @@
+
+@media (max-width: 1444px) {
+    .categories ul li a {
+        font-size: 21px;
+        
+    }
+}
+@media (max-width: 1199px) {
+.destination_block {
+    padding: 0 59px;
+    width: 50%;
+
+}
+
+
+.box {
+   
+    height: 300px;
+}
+section.section.pt-0.jobs {
+    margin-top: -53px;
+  
+}
+.about_img img {
+
+    width: 100%;
+    border-radius: 0;
+    
+    padding: 0;
+
+}
+.recruitment .recruitment-card .arow {
+
+    background-size: contain;
+}
+
+}
+@media (min-width: 991px) {
+    .side-bar {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .team-detail-men {
+        position: unset;
+       
+    }
+    .menu-btn {
+        right: 5%;
+        top: 25px;
+        position: absolute;
+        z-index: 9;
+    }
+    /* mobile menu start  */
+.side-bar {
+    background: #1b1a1b;
+    backdrop-filter: blur(15px);
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: -300px;
+    overflow-y: auto;
+    transition: 0.6s ease;
+    transition-property: left;
+  }
+  .side-bar::-webkit-scrollbar {
+    width: 0px;
+  }
+  .side-bar.active {
+    left: 0;
+    position: fixed;
+    z-index: 999;
+
+  }
+  .side-bar .menu_mobile {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .side-bar .menu_mobile .item a {
+    display: block;
+    padding: 5px 30px;
+    line-height: 40px;
+  }
+  .side-bar .menu_mobile .item a:hover {
+    background: #33363a;
+    transition: 0.3s ease;
+  }
+  .side-bar .menu_mobile .item i {
+    margin-right: 15px;
+  }
+  .side-bar .menu_mobile .item a .dropdown {
+    position: absolute;
+    right: 0;
+    margin: 9px 20px;
+    transition: 0.3s ease;
+  }
+  .menu-btn i.fas.fa-bars {
+    color: #088738;
+  }
+  .side-bar .menu_mobile .item .sub-menu {
+    background: #262627;
+    display: none;
+  }
+  .side-bar .menu_mobile .item .sub-menu a {
+    padding-left: 80px;
+  }
+  .rotate {
+    transform: rotate(90deg);
+  }
+  .close-btn {
+    position: absolute;
+    font-size: 23px;
+    right: 0px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .menu-btn,
+  .side-bar {
+    z-index: 99;
+    
+    position: fixed;
+  }
+  .menu-btn {
+    right: 5%;
+    top: 18px;
+    font-size: 33px;
+    color: #202182;
+    z-index: 9999;
+  }
+  .menu_mobile .item a,.side-bar i.fa {
+    color: white;
+  }
+
+  /* mobile menu end  */
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+      
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .destination_block {
+       
+        width: 100%;
+    }
+    section.about::before {
+      
+        width: 100%;
+        height: 50%;
+    }
+    .value_block {
+        width: 100%;
+    }
+    .value_text.ps-5,.text_block.ps-5 {
+        width: 100%;
+        padding: 20px !important;
+    }
+    .inner-slider {
+        padding: 104px 0;
+       
+    }
+    .section {
+        padding: 65px 0;
+    }
+    .about_img img {
+        height: 400px;
+    }
+    .team-single-img img.img-fluid.rounded.shadow-sm {
+        max-height: 300px;
+      
+        min-height: 300px;
+    }
+    .recruitment .recruitment-card .icon span {
+      
+        font-size: 33px;
+      
+    }
+    .recruitment .recruitment-card .icon {
+        width: 50px;
+        height: 50px;
+      
+    }
+    .about_img::before,.about_img::after {
+       display: none;
+    }
+    section.section.contact-us .form-control {
+    
+        padding: 0;
+       
+    }
+    table.table.table-striped {
+        table-layout: fixed;
+        min-width: 591px;
+    }
+    .carrer-wrap {
+        overflow-x: auto;
+    }
+}
+
