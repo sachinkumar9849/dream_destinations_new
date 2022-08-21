@@ -2063,6 +2063,7 @@ section.why_choose .section_title h2 span ,section.why_choose .float-text h1{
   transform: rotate(45deg);
   line-height: 59px;
   text-align: center;
+  margin-left: 10px;
 }
 
 .why_text h5 {
